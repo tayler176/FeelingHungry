@@ -1,0 +1,39 @@
+.title-headers{
+    width: 400px;
+    background-color: blanchedalmond;
+    /* height: 75px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.meats-header{
+ background-color: #cc6600;
+ opacity: 0.75;
+ color: 41414c;
+ background-image: url(assets/images/steak.jpg)
+}
+
+.veggies-header{
+    background-color: #33cc33;
+    opacity: 0.75;
+    color: 41414c;
+}
+
+.carbs-header{
+    background-color: wheat;
+    opacity: 0.75;
+    color: 41414c;
+}
+
+.dairy-header{
+    background-color: whitesmoke;
+    opacity: 0.75;
+    color: 41414c;
+}
+
+.user-additions-header{
+    background-color:#6699ff;
+    opacity: 0.75;
+    color: 41414c;
+}
