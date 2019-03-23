@@ -1,0 +1,97 @@
+/* format navbar and footer
+formatting buttons */
+
+body {
+    background-image: url("../images/plaid.png");
+    background-repeat: repeat;
+    height: 100%;
+    line-height: 1.5em;
+    color: #41414c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color:inherit; 
+}
+a:hover {
+    color: currentColor;
+}
+
+.uk-navbar-nav {
+    padding: 10px;
+}
+
+button{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.meat-button {
+    background-color: #ced4da;
+    border: 4px solid #ff3860;
+}
+
+.meat-button:hover {
+    border: 4px solid #ff3860;
+}
+
+.veggie-button {
+    background-color: #ced4da;
+    border: 4px solid #ff3860;
+}
+
+.carb-button {
+    background-color: #ced4da;
+    border: 4px solid #ff3860;
+}
+
+.dairy-button {
+    background-color: #ced4da;
+    border: 4px solid #ff3860;
+}
+
+.user-button {
+    background-color: #ced4da;
+    border: 4px solid #ff3860;
+}
+
+.title-headers{
+    width: 100%;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.everything-container{
+    width: 50%;
+}
+
+.meats-header{
+    background-image: url("../images/steak.jpg");
+    background-size: contain;
+    opacity: 0.75;
+}
+
+.veggies-header{
+    background-image: url("../images/vegetables.jpg");
+    background-size: cover;
+    opacity: 0.75;
+}
+
+.carbs-header{
+    background-image: url("../images/carbs.jpg");
+    opacity: 0.75;
+}
+
+.dairy-header{
+    background-image: url("../images/dairy.jpg");
+    background-size: cover;
+    opacity: 0.75;
+}
+
+.user-additions-header{
+    background-image: url("../images/cutlery.jpg");
+    background-size: cover;
+    opacity: 0.75;
+    color: white;
+}
