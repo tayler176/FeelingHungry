@@ -1,39 +1,49 @@
 .title-headers{
-    width: 400px;
+    width: 100%;
     background-color: blanchedalmond;
-    /* height: 75px; */
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
+    color: white;
+}
+
+.everything-container{
+    width: 50%;
 }
 
 .meats-header{
- background-color: #cc6600;
+    background-image: url("../images/steak.jpg");
+ background-size: contain;
  opacity: 0.75;
- color: 41414c;
- background-image: url(assets/images/steak.jpg)
+
 }
 
 .veggies-header{
-    background-color: #33cc33;
+    background-image: url("../images/vegetables.jpg");
+    background-size: cover;
     opacity: 0.75;
-    color: 41414c;
+    
 }
 
 .carbs-header{
-    background-color: wheat;
+    background-image: url("../images/carbs.jpg");
     opacity: 0.75;
-    color: 41414c;
+    
 }
 
 .dairy-header{
-    background-color: whitesmoke;
+    background-image: url("../images/dairy.jpg");
+    background-size: cover;
     opacity: 0.75;
-    color: 41414c;
-}
+}    
 
 .user-additions-header{
-    background-color:#6699ff;
+    background-image: url("../images/cutlery.jpg");
+    background-size: cover;
     opacity: 0.75;
-    color: 41414c;
+    
+}
+
+button{
+    width: 205px;
 }
