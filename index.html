@@ -3,104 +3,93 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/uikit.min.css">
+    <link rel="shortcut icon" href="wherever the pic is">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/uikit-icons.min.js"></script>
+    <script type="text/javascript" src="assets/js/uikit.min.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <div class="everything-container">
         <div class="types-of-diets"></div>
-
-
-        <div class="meats-header">Meat Choices</div>
-        <div class="meat-button-container">
-            <label class="container">
-                Steak
-                <input type="checkbox">
-                <span class="checkmark meat-button"></span>
-            </label>
-            <label class="container">
-                Chicken
-                <input type="checkbox">
-                <span class="checkmark meat-button"></span>
-            </label>
-            <label class="container">
-                Fish
-                <input type="checkbox">
-                <span class="checkmark meat-button"></span>
-            </label>
-            <label class="container">
-                Pork
-                <input type="checkbox">
-                <span class="checkmark meat-button"></span>
-            </label>
-            <label class="container">
-                Tofu
-                <input type="checkbox">
-                <span class="checkmark meat-button"></span>
-            </label>
-        
-            <!-- <button class="meat-button">Steak</button>
-            <button class="meat-button">Chicken</button>
-            <button class="meat-button">Fish</button>
-            <button class="meat-button">Pork</button>
-            <button class="meat-button">Tofu</button> -->
-        </div>
-
-        <div class="veggies-header">Vegetable Choices</div>
-        <div class="veggie-button-container">
-            <button type="checkbox" class="veggie-button">Green Bell Peppers</button>
-            <button class="veggie-button">Onions</button>
-            <button class="veggie-button">Tomatos</button>
-            <button class="veggie-button">Potatoes</button>
-            <button class="veggie-button">Carrots</button>
-            <button class="veggie-button">Asparagus</button>
-            <br>
-            <button class="veggie-button">Spinach</button>
-            <button class="veggie-button">Broccoli</button>
-            <button class="veggie-button">Red Bell Peppers</button>
-            <button class="veggie-button">Cucumbers</button>
-            <button class="veggie-button">Sweet Potatoes</button>
-            <button class="veggie-button">Cauliflower</button>
-        </div>
-
-        <div class="carbs-header">Carb Choices</div>
-        <div class="carb-button-container">
-            <button class="carb-button"></button>
-            <button class="carb-button"></button>
-            <button class="carb-button"></button>
-            <button class="carb-button"></button>
-            <button class="carb-button"></button>
-            <button class="carb-button"></button>
-            <button class="carb-button"></button>
-            <button class="carb-button"></button>
-            <button class="carb-button"></button>
-        </div>
-
-        <div class="dairy-header">Dairy Choices</div>
-        <div class="dairy-button-container">
-            <button class="dairy-button"></button>
-            <button class="dairy-button"></button>
-            <button class="dairy-button"></button>
-            <button class="dairy-button"></button>
-            <button class="dairy-button"></button>
-            <button class="dairy-button"></button>
-            <button class="dairy-button"></button>
-            <button class="dairy-button"></button>
-            <button class="dairy-button"></button>
-        </div>
-
-        <div class="user-additions-header">User Addtions</div>
-        <div class="user-button-container">
-
-        </div>
-
+        <ul uk-accordion="multiple: true">
+            <li class="uk-open">
+                <a class="uk-accordion-title" href="#">
+                    <div class="meats-header">Meat Choices</div>
+                </a>
+                <div class="uk-accordion-content meat-button-container">
+                    <button class="meat-button uk-button uk-button-default uk-button-large">Steak</button>
+                    <button class="meat-button uk-button uk-button-default uk-button-large">Chicken</button>
+                    <button class="meat-button uk-button uk-button-default uk-button-large">Fish</button>
+                    <button class="meat-button uk-button uk-button-default uk-button-large">Pork</button>
+                    <button class="meat-button uk-button uk-button-default uk-button-large">Tofu</button>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#"><div class="veggies-header">Vegetable Choices
+    </div></a>
+    <div class="uk-accordion-content veggie-button-container">
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Onions</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Tomatos</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Potatoes</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Carrots</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Asparagus</button>
+        <br>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Spinach</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Broccoli</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Red Bell Peppers</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Cucumbers</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Sweet Potatoes</button>
+        <button class="veggie-button uk-button uk-button-default uk-button-large">Cauliflower</button>
     </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">
+            <div class="carbs-header">Carb Choices</div>
+        </a>
+        <div class="uk-accordion-content carb-button-container">
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+            <button class="carb-button uk-button uk-button-default uk-button-large"></button>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">
+            <div class="dairy-header">Dairy Choices</div>
+        </a>
+        <div class="uk-accordion-content carb-button-container dairy-button-container">
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+            <button class="dairy-button uk-button uk-button-default uk-button-large"></button>
+        </div>
+    </li>
+    <li>
+            <a class="uk-accordion-title" href="#">
+                <div class="user-additions-header">User Addtions</div>
+            </a>
+            <div class="uk-accordion-content user-button-container">
+                
+            </div>
+        </li>
+    </ul>
+
 
 
 </body>
