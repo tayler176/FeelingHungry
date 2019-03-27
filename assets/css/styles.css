@@ -1,5 +1,13 @@
-/* format navbar and footer
-formatting buttons */
+.uk-card {
+    margin: 10px;
+    width: 210px;
+
+}
+
+h3 {
+    font-family: 'Lobster Two', cursive;
+}
+
 
 body {
     background-image: url("../images/plaid.png");
@@ -7,7 +15,7 @@ body {
     height: 100%;
     line-height: 1.5em;
     color: #41414c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -15,44 +23,121 @@ a {
 }
 a:hover {
     color: currentColor;
+    text-shadow: 0 0 5px #000000;
 }
+
+.uk-navbar-container {
+    right: 0;
+    top: 0;
+    width: 100%;
+    background: #41414c;    
+    color: #ff3860;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #41414c; 
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #666666;
+    color: #8d8d8d;
+    height: 2em;
+    padding: 1em;
+    text-align: center;
+}
+
+.uk-logo {
+    color: #ff3860;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 300;
+    font-size: 40px;
+}
+
 
 .uk-navbar-nav {
     padding: 10px;
 }
 
-button{
-    width: 200px;
+.uk-button-large {
+    width: 30%;
     border-radius: 5px;
+    padding: 0 10px;
+    line-height: 1.5em;
+    height: 53px;
 }
 
 .meat-button {
-    background-color: #ced4da;
-    border: 4px solid #ff3860;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
 }
 
 .meat-button:hover {
     border: 4px solid #ff3860;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
 }
 
 .veggie-button {
-    background-color: #ced4da;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
+}
+
+.veggie-button:hover {
     border: 4px solid #ff3860;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
 }
 
 .carb-button {
-    background-color: #ced4da;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
+}
+
+.carb-button:hover {
     border: 4px solid #ff3860;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
 }
 
 .dairy-button {
-    background-color: #ced4da;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
+}
+
+.dairy-button:hover {
     border: 4px solid #ff3860;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
 }
 
 .user-button {
-    background-color: #ced4da;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
+}
+
+.user-button:hover {
     border: 4px solid #ff3860;
+    background-color: rgba(206,212,218, 0.5) !important;
+    background-blend-mode: color;
+}
+
+.active {
+    border: 4px solid #ced4da;
+    background-color: rgba(255,56,96, 0.5) !important;
+    background-blend-mode: color;
+    font-weight: 200;
+}
+
+.everything-container{
+    width: 50%;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .title-headers{
@@ -62,9 +147,14 @@ button{
     padding-bottom: 25px;
     text-align: center;
 }
-.everything-container{
-    width: 50%;
+
+.title-headers:hover {
+    color: white;
+    text-shadow: 0 0 5px #ff3860;
 }
+
+
+
 
 .meats-header{
     background-image: url("../images/steak.jpg");
