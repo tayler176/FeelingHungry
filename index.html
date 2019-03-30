@@ -2,95 +2,256 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/uikit.min.css">
-    <link rel="shortcut icon" href="wherever the pic is">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css"> 
+    <link rel="shortcut icon" href="assets/images/utensils.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Open+Sans" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src="assets/js/app.js"></script>
-    <script type="text/javascript" src="assets/js/uikit-icons.min.js"></script>
-    <script type="text/javascript" src="assets/js/uikit.min.js"></script>
-    <title>Document</title>
+
+    <title>Feeling Hungry?e</title>
 </head>
 
 <body>
-<div class="everything-container">
-<div class="types-of-diets"></div>
-<ul uk-accordion="multiple: true">
-<li class="uk-open">
-<a class="uk-accordion-title" href="#">
-<div class="meats-header title-headers">Meat Choices</div>
-</a>
-<div class="uk-accordion-content meat-button-container">
-<button class="meat-button uk-button uk-button-default uk-button-large" id="steak" data-food="steak">Steak</button>
-<button class="meat-button uk-button uk-button-default uk-button-large" id="chicken" data-food="chicken">Chicken</button>
-<button class="meat-button uk-button uk-button-default uk-button-large" id="fish" data-food="fish">Fish</button>
-<button class="meat-button uk-button uk-button-default uk-button-large" id="pork" data-food="pork">Pork</button>
-<button class="meat-button uk-button uk-button-default uk-button-large" id="tufo" data-food="tufo">Tofu</button>
-</div>
-</li>
-<li>
-<a class="uk-accordion-title" href="#">
-<div class="veggies-header title-headers">Vegetable Choices
-</div>
-</a>
-<div class="uk-accordion-content veggie-button-container">
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="onion" data-food="onion">Onions</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="tomatos" data-food="tomatos">Tomatos</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="potatoes" data-food="potatoes">Potatoes</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="carrots" data-food="carrots">Carrots</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="zucchini" data-food="zucchini">Zucchini</button>
-<br>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="spinach" data-food="spinach">Spinach</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="broccoli" data-food="broccoli">Broccoli</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="bell-peppers" data-food="bell-peppers">Bell Peppers</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="cucumbers" data-food="cucumbers">Cucumbers</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="corn" data-food="corn">Corn</button>
-<br>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="cauliflower" data-food="cauliflower">Cauliflower</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="green-beans" data-food="green-beans">Green Beans</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="squash" data-food="squash">Squash</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="sweet-potatoes" data-food="sweet-potatoes">Sweet Potatoes</button>
-<button class="veggie-button uk-button uk-button-default uk-button-large" id="carrots" data-food="carrots">Carrots</button>
-</div>
-</li>
-<li>
-<a class="uk-accordion-title" href="#">
-<div class="carbs-header title-headers">Carb Choices</div>
-</a>
-<div class="uk-accordion-content carb-button-container">
-<button class="carb-button uk-button uk-button-default uk-button-large" id="pasta" data-food="pasta">Pasta</button>
-<button class="carb-button uk-button uk-button-default uk-button-large" id="bread" data-food="bread">Bread</button>
-<button class="carb-button uk-button uk-button-default uk-button-large" id="white-rice" data-food="white-rice">White Rice</button>
-<button class="carb-button uk-button uk-button-default uk-button-large" id="brown-rice" data-food="brown-rice">Brown Rice</button>
-<button class="carb-button uk-button uk-button-default uk-button-large" id="quinoa" data-food="quinoa">Quinoa</button>
-</div>
-</li>
-<li>
-<a class="uk-accordion-title" href="#">
-<div class="dairy-header title-headers">Dairy Choices</div>
-</a>
-<div class="uk-accordion-content carb-button-container dairy-button-container">
-<button class="dairy-button uk-button uk-button-default uk-button-large" id="cheese" data-food="cheese">Cheese</button>
-<button class="dairy-button uk-button uk-button-default uk-button-large" id="cream" data-food="cream">Cream</button>
-<button class="dairy-button uk-button uk-button-default uk-button-large" id="milk" data-food="milk">Milk</button>
-<button class="dairy-button uk-button uk-button-default uk-button-large" id="yogurt" data-food="yogurt">Yogurt</button>
-<button class="dairy-button uk-button uk-button-default uk-button-large" id="coconut-milk" data-food="coconut-milk">Coconut Milk</button>
-</div>
-</li>
-<li>
-<a class="uk-accordion-title" href="#">
-<div class="user-additions-header title-headers">User Addtions</div>
-</a>
-<div class="uk-accordion-content user-button-container">
+        <!-- NAVBAR STARTS -->
+        <div class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo" disabled> <i class="fas fa-utensils"></i> 
+                        Feeling Hungry?</a>
+                    <!-- <ul class="uk-navbar-nav">About</ul> -->
+                    <ul>
+                        <!-- This is a button toggling the modal -->
+                        <button class="uk-button uk-button-default uk-margin-small-right sign-up-login" type="button"
+                            uk-toggle="target: #modal-example">Sign Up/Login</button>
+        
+                        <!-- This is the modal -->
+                        <div id="modal-example" uk-modal>
+                            <div class="uk-modal-dialog uk-modal-body">
+                                <!-- <div class="row"> -->
+                                <div class="uk-column-1-2 uk-column-divider">
+                                    <form id="form">
+                                        <h4>Sign up</h4>
+                                        <br>
+                                        Email:
+                                        <br>
+                                        <input class="form-control" type="text" placeholder="" id="email-input">
+                                        <br>
+                                        Password:
+                                        <br>
+                                        <input class="form-control" type="password" placeholder="" id="password-input">
+                                        <br>
+                                        <button class="submit-button uk-button uk-button-default log uk-modal-close-default"
+                                            id="sign-up-button" >SignUp </button>
+                                    </form>
+                                    <br>
+                                    <!-- </div>
+                        <div cclass="uk-column-1-2 uk-column-divider"> -->
+                                    <form id="loginForm">
+                                        <h4>Log In</h3>
+                                        <br>
+                                        Email:
+                                        <br>
+                                        <input class="form-control" type="text" placeholder="" id="email-login">
+                                        <br>
+                                        Password:
+                                        <br>
+                                        <input class="form-control" type="password" placeholder="" id="password-login">
+                                        <br>
+                                        <button type="button" class="submit-button uk-button uk-button-default log uk-modal-close-default"
+                                            id="login-button">Login</button>
+                                        <button class="logoutButt submit-button uk-button uk-button-default log uk-modal-close-default"
+                                            id="logout">LogOut</button>
+                                    </form>
+                                </div>
+                                <!-- </div> -->
+                                <p class="uk-text-right">
+        
+                                </p>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+    <!-- NAV BAR ENDS -->
+    <div class="everything-container">
+        <form id="miscIngredientForm">
+            <label>Are we missing anything? Add your own ingredient button:</label><br>
+            <form class="uk-search" id="miscIngredient">
+                <input class="uk-search-input search-bar" type="search" placeholder="ingredient search">
+                <input class="uk-button uk-button-default uk-button-large search" id="add-button" type="submit"
+                    value="submit">
+            </form>
+        </form>
+        <br>
+        <button class="uk-button uk-button-default uk-button-large cook" id="startCooking">Let's cook!</button>
+        <div class="types-of-diets"></div>
+        <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+            <ul uk-accordion="multiple: true">
+                <li>
+                    <a class="uk-accordion-title" href="#">
+                        <div class="user-additions-header title-headers">User Addtions</div>
+                    </a>
+                    <div class="uk-accordion-content user-button-container">
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">
+                        <div class="allergens-header title-headers">Allergens</div>
+                    </a>
+                    <div class="uk-accordion-content carb-button-container">
+                        <button class="uk-button uk-button-default uk-button-large allergen-button"
+                            id="nuts" data-food="nuts">Nuts</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button"
+                            id="milk" data-food="milk">Milk</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button" id="egg"
+                            data-food="egg">Eggs</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button"
+                            id="shellfish" data-food="shellfish">Shellfish</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button"
+                            id="wheat" data-food="wheat">Wheat</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button" id="soy"
+                            data-food="soy">Soy</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button"
+                            id="fish" data-food="fish">Fish</button>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">
+                        <div class="meats-header title-headers">Meat Choices</div>
+                    </a>
+                    <div class="uk-accordion-content meat-button-container">
+                        <button class="meat-button uk-button uk-button-default uk-button-large food-button" id="steak"
+                            data-food="steak">Steak</button>
+                        <button class="meat-button uk-button uk-button-default uk-button-large food-button" id="chicken"
+                            data-food="chicken">Chicken</button>
+                        <button class="meat-button uk-button uk-button-default uk-button-large food-button" id="fish"
+                            data-food="fish">Fish</button>
+                        <button class="meat-button uk-button uk-button-default uk-button-large food-button" id="pork"
+                            data-food="pork">Pork</button>
+                        <button class="meat-button uk-button uk-button-default uk-button-large food-button" id="tufo"
+                            data-food="tufo">Tofu</button>
+                        <button class="meat-button uk-button uk-button-default uk-button-large food-button"
+                            id="sea-food" data-food="sea-food">Sea Food</button>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">
+                        <div class="veggies-header title-headers">Vegetable Choices
+                        </div>
+                    </a>
+                    <div class="uk-accordion-content veggie-button-container">
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button" id="onion"
+                            data-food="onion">Onions</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="tomato" data-food="tomato">Tomatoes</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="potatoes" data-food="potatoes">Potatoes</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="carrots" data-food="carrots">Carrots</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="zucchini" data-food="zucchini">Zucchini</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="spinach" data-food="spinach">Spinach</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="broccoli" data-food="broccoli">Broccoli</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="bell-peppers" data-food="bell-peppers">Bell Peppers</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="cucumbers" data-food="cucumbers">Cucumbers</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button" id="corn"
+                            data-food="corn">Corn</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="cauliflower" data-food="cauliflower">Cauliflower</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="green-beans" data-food="green-beans">Green Beans</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="squash" data-food="squash">Squash</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="sweet-potatoes" data-food="sweet-potatoes">Sweet Potatoes</button>
+                        <button class="veggie-button uk-button uk-button-default uk-button-large food-button"
+                            id="carrots" data-food="carrots">Carrots</button>
+                    </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">
+                        <div class="carbs-header title-headers">Carb Choices</div>
+                    </a>
+                    <div class="uk-accordion-content carb-button-container">
+                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="pasta"
+                                data-food="pasta">Pasta</button>
+                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="bread"
+                                data-food="bread">Bread</button>
+                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="white-rice"
+                                data-food="white-rice">White Rice</button>
+                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="brown-rice"
+                                data-food="brown-rice">Brown Rice</button>
+                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="quinoa"
+                                data-food="quinoa">Quinoa</button>
+                        </div>
+                </li>
+                <li>
+                    <a class="uk-accordion-title" href="#">
+                        <div class="dairy-header title-headers">Dairy Choices</div>
+                    </a>
+                    <div class="uk-accordion-content carb-button-container">
+                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="cheese"
+                                data-food="cheese">Cheese</button>
+                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="cream"
+                                data-food="cream">Cream</button>
+                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="milk"
+                                data-food="milk">Milk</button>
+                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="yogurt"
+                                data-food="yogurt">Yogurt</button>
+                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button"
+                                id="coconut-milk" data-food="coconut-milk">Coconut Milk</button>
+                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="oats"
+                                data-food="oats">Oats</button>
+                    </div>
+                </li>
+                <li class="uk-open">
+                    <a class="uk-accordion-title" href="#">
+                        <div class="recipes-additions-header title-headers" disabled>Recipe</div>
+                    </a>
+                    <div class="uk-accordion-content recipe-container">
+                    </div>
+                </li>
+            </ul>
+    </div>
+    </div>
+    <div class="container2">
+            <div uk-grid="masonry: true" id="recipesHere">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Bottom</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+    
+                    <div class="uk-card-media-bottom">
+                        <img src="assets/images/carbs.jpg" alt="" height=150px>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-</div>
-</li>
-</ul>
+    <footer>
+        <span id="footer-info">
+            Copyright &copy; 2019
+        </span>
+    </footer>
 
 
-
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/uikit-icons.min.js"></script>
+    <script type="text/javascript" src="assets/js/uikit.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script type="text/javascript" src="assets/js/auth.js"></script> 
+    <script type="text/javascript" src="assets/js/apps.js"></script>
 </body>
 
 </html>
