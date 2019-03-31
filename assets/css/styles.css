@@ -134,7 +134,7 @@ h4 {
     background-size: cover;
     opacity: 0.75;   
 }
-.meat-button-container, .veggie-button-container, .carb-button-container, .dairy-button-container, .allergen-button-containers {
+.meat-button-container, .veggie-button-container, .carb-button-container, .dairy-button-container, .allergen-button-containers, .user-button-container {
     margin-left: 20px;
 }
 .meat-button, .veggie-button, .carb-button, .dairy-button,  .user-button, .allergen-button {

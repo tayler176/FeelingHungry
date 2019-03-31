@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/uikit.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link rel="shortcut icon" href="assets/images/utensils.ico">
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Open+Sans" rel="stylesheet">
     <meta charset="UTF-8">
@@ -16,74 +16,75 @@
 </head>
 
 <body>
-        <!-- NAVBAR STARTS -->
-        <div class="uk-navbar-container" uk-navbar>
-                <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo" disabled> <i class="fas fa-utensils"></i> 
-                        Feeling Hungry?</a>
-                    <!-- <ul class="uk-navbar-nav">About</ul> -->
-                    <ul>
-                        <!-- This is a button toggling the modal -->
-                        <button class="uk-button uk-button-default uk-margin-small-right sign-up-login" type="button"
-                            uk-toggle="target: #modal-example">Sign Up/Login</button>
-                        <!-- This is the modal -->
-                        <div id="modal-example" uk-modal>
-                            <div class="uk-modal-dialog uk-modal-body">
-                                <!-- <div class="row"> -->
-                                <div class="uk-column-1-2 uk-column-divider">
-                                    <form id="form">
-                                        <h4>Sign up</h4>
-                                        <!-- <br> -->
-                                        Email:
-                                        <br>
-                                        <input class="form-control" type="text" placeholder="" id="email-input">
-                                        <br>
-                                        Password:
-                                        <br>
-                                        <input class="form-control" type="password" placeholder="" id="password-input">
-                                        <br>
-                                        <button class="submit-button uk-button uk-button-default log uk-modal-close-default"
-                                            id="sign-up-button" >SignUp </button>
-                                    </form>
-                                    <br>
-                                    <!-- </div>
+    <!-- NAVBAR STARTS -->
+    <div class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" disabled> <i class="fas fa-utensils"></i>
+                Feeling Hungry?</a>
+            <!-- <ul class="uk-navbar-nav">About</ul> -->
+            <ul>
+                <!-- This is a button toggling the modal -->
+                <button class="uk-button uk-button-default uk-margin-small-right sign-up-login" type="button"
+                    uk-toggle="target: #modal-example">Sign Up/Login</button>
+                <!-- This is the modal -->
+                <div id="modal-example" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body">
+                        <!-- <div class="row"> -->
+                        <div class="uk-column-1-2 uk-column-divider">
+                            <form id="form">
+                                <h4>Sign up</h4>
+                                <!-- <br> -->
+                                Email:
+                                <br>
+                                <input class="form-control" type="text" placeholder="" id="email-input">
+                                <br>
+                                Password:
+                                <br>
+                                <input class="form-control" type="password" placeholder="" id="password-input">
+                                <br>
+                                <button class="submit-button uk-button uk-button-default log uk-modal-close-default"
+                                    id="sign-up-button">SignUp </button>
+                            </form>
+                            <br>
+                            <!-- </div>
                         <div cclass="uk-column-1-2 uk-column-divider"> -->
-                                    <form id="loginForm">
-                                        <h4>Log In</h3>
-                                        <!-- <br> -->
-                                        Email:
-                                        <br>
-                                        <input class="form-control" type="text" placeholder="" id="email-login">
-                                        <br>
-                                        Password:
-                                        <br>
-                                        <input class="form-control" type="password" placeholder="" id="password-login">
-                                        <br>
-                                        <button type="button" class="submit-button uk-button uk-button-default log uk-modal-close-default"
-                                            id="login-button">Login</button>
-                                        <button class="logoutButt submit-button uk-button uk-button-default log uk-modal-close-default"
-                                            id="logout">LogOut</button>
-                                    </form>
-                                </div>
-                                <!-- </div> -->
-                                <p class="uk-text-right">
-        
-                                </p>
-                            </div>
+                            <form id="loginForm">
+                                <h4>Log In</h3>
+                                    <!-- <br> -->
+                                    Email:
+                                    <br>
+                                    <input class="form-control" type="text" placeholder="" id="email-login">
+                                    <br>
+                                    Password:
+                                    <br>
+                                    <input class="form-control" type="password" placeholder="" id="password-login">
+                                    <br>
+                                    <button type="button"
+                                        class="submit-button uk-button uk-button-default log uk-modal-close-default"
+                                        id="login-button">Login</button>
+                                    <button
+                                        class="logoutButt submit-button uk-button uk-button-default log uk-modal-close-default"
+                                        id="logout">LogOut</button>
+                            </form>
                         </div>
-                        <!-- <button class="uk-button uk-button-default uk-margin-small-right sign-up-login" type="button">Logout</button> -->
-                    </ul>
+                        <!-- </div> -->
+                        <p class="uk-text-right">
+
+                        </p>
+                    </div>
                 </div>
-            </div>
+                <!-- <button class="uk-button uk-button-default uk-margin-small-right sign-up-login" type="button">Logout</button> -->
+            </ul>
+        </div>
+    </div>
     <!-- NAV BAR ENDS -->
     <div class="everything-container">
         <form id="miscIngredientForm">
             <label>Are we missing anything? Add your own ingredient button:</label><br>
-            <form class="uk-search" id="miscIngredient">
-                <input class="uk-search-input search-bar" type="search" placeholder="ingredient search">
-                <input class="uk-button uk-button-default uk-button-large search" id="add-button" type="submit"
-                    value="submit">
-            </form>
+            <!-- <form class="uk-search" id="miscIngredient"> -->
+                <input id="miscIngredient" class="uk-search-input search-bar" type="search" placeholder="ingredient search">
+                <input id="add-button" class="uk-button uk-button-default uk-button-large search" type="submit" value="submit">
+            <!-- </form> -->
         </form>
         <br>
         <button class="uk-button uk-button-default uk-button-large cook" id="startCooking">Let's cook!</button>
@@ -102,20 +103,20 @@
                         <div class="allergens-header title-headers">Allergens</div>
                     </a>
                     <div class="uk-accordion-content carb-button-container">
-                        <button class="uk-button uk-button-default uk-button-large allergen-button"
-                            id="nuts" data-food="nuts">Nuts</button>
-                        <button class="uk-button uk-button-default uk-button-large allergen-button"
-                            id="milk" data-food="milk">Milk</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button" id="nuts"
+                            data-food="nuts">Nuts</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button" id="milk"
+                            data-food="milk">Milk</button>
                         <button class="uk-button uk-button-default uk-button-large allergen-button" id="egg"
                             data-food="egg">Eggs</button>
-                        <button class="uk-button uk-button-default uk-button-large allergen-button"
-                            id="shellfish" data-food="shellfish">Shellfish</button>
-                        <button class="uk-button uk-button-default uk-button-large allergen-button"
-                            id="wheat" data-food="wheat">Wheat</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button" id="shellfish"
+                            data-food="shellfish">Shellfish</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button" id="wheat"
+                            data-food="wheat">Wheat</button>
                         <button class="uk-button uk-button-default uk-button-large allergen-button" id="soy"
                             data-food="soy">Soy</button>
-                        <button class="uk-button uk-button-default uk-button-large allergen-button"
-                            id="fish" data-food="fish">Fish</button>
+                        <button class="uk-button uk-button-default uk-button-large allergen-button" id="fish"
+                            data-food="fish">Fish</button>
                     </div>
                 </li>
                 <li>
@@ -180,35 +181,35 @@
                         <div class="carbs-header title-headers">Carb Choices</div>
                     </a>
                     <div class="uk-accordion-content carb-button-container">
-                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="pasta"
-                                data-food="pasta">Pasta</button>
-                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="bread"
-                                data-food="bread">Bread</button>
-                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="white-rice"
-                                data-food="white-rice">White Rice</button>
-                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="brown-rice"
-                                data-food="brown-rice">Brown Rice</button>
-                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="quinoa"
-                                data-food="quinoa">Quinoa</button>
-                        </div>
+                        <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="pasta"
+                            data-food="pasta">Pasta</button>
+                        <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="bread"
+                            data-food="bread">Bread</button>
+                        <button class="carb-button uk-button uk-button-default uk-button-large food-button"
+                            id="white-rice" data-food="white-rice">White Rice</button>
+                        <button class="carb-button uk-button uk-button-default uk-button-large food-button"
+                            id="brown-rice" data-food="brown-rice">Brown Rice</button>
+                        <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="quinoa"
+                            data-food="quinoa">Quinoa</button>
+                    </div>
                 </li>
                 <li>
                     <a class="uk-accordion-title" href="#">
                         <div class="dairy-header title-headers">Dairy Choices</div>
                     </a>
                     <div class="uk-accordion-content carb-button-container">
-                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="cheese"
-                                data-food="cheese">Cheese</button>
-                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="cream"
-                                data-food="cream">Cream</button>
-                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="milk"
-                                data-food="milk">Milk</button>
-                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="yogurt"
-                                data-food="yogurt">Yogurt</button>
-                            <button class="dairy-button uk-button uk-button-default uk-button-large food-button"
-                                id="coconut-milk" data-food="coconut-milk">Coconut Milk</button>
-                            <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="oats"
-                                data-food="oats">Oats</button>
+                        <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="cheese"
+                            data-food="cheese">Cheese</button>
+                        <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="cream"
+                            data-food="cream">Cream</button>
+                        <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="milk"
+                            data-food="milk">Milk</button>
+                        <button class="dairy-button uk-button uk-button-default uk-button-large food-button" id="yogurt"
+                            data-food="yogurt">Yogurt</button>
+                        <button class="dairy-button uk-button uk-button-default uk-button-large food-button"
+                            id="coconut-milk" data-food="coconut-milk">Coconut Milk</button>
+                        <button class="carb-button uk-button uk-button-default uk-button-large food-button" id="oats"
+                            data-food="oats">Oats</button>
                     </div>
                 </li>
                 <li class="uk-open">
@@ -219,13 +220,13 @@
                     </div>
                 </li>
             </ul>
-    </div>
+        </div>
     </div>
 
-<div class="container2">
+    <div class="container2">
         <div uk-grid="masonry: true" id="recipesHere">
-          <div class="uk-card uk-card-default uk-card-hover">
-            <!-- <div class="uk-card-body">
+            <div class="uk-card uk-card-default uk-card-hover">
+                <!-- <div class="uk-card-body">
               <h3 class="uk-card-title">Media Bottom</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
             </div>
@@ -233,9 +234,9 @@
             <div class="uk-card-media-bottom">
               <img src="assets/images/carbs.jpg" alt="" height=150px>
             </div> -->
-          </div>
+            </div>
         </div>
-      </div>
+    </div>
     <footer>
         <span id="footer-info">
             Copyright &copy; 2019
@@ -250,7 +251,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
-    <script type="text/javascript" src="assets/js/auth.js"></script> 
+    <script type="text/javascript" src="assets/js/auth.js"></script>
     <script type="text/javascript" src="assets/js/apps.js"></script>
 </body>
 
