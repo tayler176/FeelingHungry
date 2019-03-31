@@ -81,25 +81,9 @@ login.on("click", function (e) {
         ingredientList = snap[id].ingredients;
         console.log(ingredientList);
 
-        // for (var i=0; i < ingredientList; i++) {
-        //     if ($(document).attr("data-food")=== ingredientList[i]) {
-        //         $(this).addClass("active");
-        //         console.log($(this));
-        //     }
-        // }
-        // ingredientList = database.ref().child("users").child(id).child("ingredients");
-       
-        // const uids = Object.keys(snap)
-        // uids.forEach(uid=>{
-        //     if(uid = id){
-        //         console.log(snap[id].ingredients)
-        //     }
-        // })
-
-               // database.ref().child("users").child(id).set({
-        //     ingredients: ingredientList,
-        //     allergens: allergenList
-        // })
+        for (var i = 0 ; i < ingredientList.length ; i++) {
+            $("#" + ingredientList[i]).addClass("active");
+            }
     })
     $("#email-login").val("")
     $("#password-login").val("")
