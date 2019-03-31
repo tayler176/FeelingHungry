@@ -1,6 +1,3 @@
-
-
-
 $(document.body).on("click", ".food-button", function () {
     $(this).toggleClass('active');
     var ingredient = $(this).attr("data-food");
