@@ -135,11 +135,12 @@ function renderButtons() {
         //dynamicaly generates buttons for each ingredient in the array
         var buttonElem = $("<button>");
         // Add our classes to the button
-        buttonElem.addClass("food-button");
         buttonElem.addClass("misc-button");
         buttonElem.addClass("uk-button");
         buttonElem.addClass("uk-button-default");
         buttonElem.addClass("uk-button-large");
+        buttonElem.addClass("food-button");
+        buttonElem.addClass("user-button");
         // Add a data-attribute
         buttonElem.attr("data-food", miscIngredientList[i]);
         // Add initial button text
@@ -162,6 +163,7 @@ $("#add-button").on("click", function (event) {
     } else {
         // push user input from the textbox into our miscIngredient array
         miscIngredientList.push(ingredient);
+        $("#miscIngredient").val('');
     }
     // call renderButtons function to process the new button
     renderButtons();
