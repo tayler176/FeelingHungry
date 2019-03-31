@@ -3,15 +3,13 @@ $(document.body).on("click", ".food-button", function () {
     var ingredient = $(this).attr("data-food");
     var ingrIndex = ingredientList.indexOf(ingredient);
     if (ingredientList.indexOf(ingredient) >= 0) {
-        ingredientList.splice(ingrIndex, 1);
-        
+        ingredientList.splice(ingrIndex, 1); 
         if (userLoggedIn) {
             database.ref().child("users").child(id).set({
                 ingredients: ingredientList,
                 allergens: allergenList
             })
         }
-        
     } else {
         ingredientList.push(ingredient);
         if (userLoggedIn) {
@@ -20,9 +18,7 @@ $(document.body).on("click", ".food-button", function () {
                     allergens: allergenList
                 })
         }
-        
     }
-
     // child("'" + id + "'")
     console.log("Ingredient List: " + ingredientList)
     //if we want to generate recipes dynamically
@@ -35,16 +31,20 @@ $(".allergen-button").on("click", function () {
     var allergenIndex = allergenList.indexOf(allergen)
     if (allergenList.indexOf(allergen) >= 0) {
         allergenList.splice(allergenIndex, 1);
+        if (userLoggedIn) {
         database.ref().child("users").child(id).set({
             ingredients: ingredientList,
             allergens: allergenList
         })
+    }
     } else {
         allergenList.push(allergen);
+        if (userLoggedIn) {
         database.ref().child("users").child(id).set({
             ingredients: ingredientList,
             allergens: allergenList
         })
+    }
     }
     console.log("Allergen list: " + allergenList);
 });
