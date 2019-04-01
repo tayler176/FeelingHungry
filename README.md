@@ -1,8 +1,8 @@
-## Feeling Hungry?
+#Feeling Hungry?
 
-Want to cook but have no idea where to start? Use this website to select ingredients that you already have and find out what you can make with what's on hand. 
+Want to cook but have no idea where to start? Use this app to select ingredients that you already have and find out what you can make with what's on hand. 
 
-## How to Use
+## Getting Started
 
 Visit https://tayler176.github.io/Project1/ to get started on your culinary journey
 
