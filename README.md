@@ -6,20 +6,20 @@ Want to cook but have no idea where to start? Use this app to select ingredients
 
 Visit https://tayler176.github.io/Project1/ to get started on your culinary journey
 
-![Feeling Hungry?](../master/assets/images/feeling_hungry.png)
+![Feeling Hungry?](../master/assets/images/feeling_hungry.PNG)
 
 Make your pick of the available choices or add your own.
 
-![User Choices](../master/assets/images/user_choices.png)
+![User Choices](../master/assets/images/user_choices.PNG)
 
 
 After you've chosen your ingredients, click "Let's Cook" in the bottom right corner.
 
-![Let's Cook](../master/assets/images/cook_button.png)
+![Let's Cook](../master/assets/images/cook_button.PNG)
 
 Recipes with the ingredients chosen will populate at the bottom of the page; clicking them will take you to the recipe's instructions. 
 
-![Recipes](../master/assets/images/recipes.png)
+![Recipes](../master/assets/images/recipes.PNG)
 
 
 ## Built With
