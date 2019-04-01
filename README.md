@@ -4,7 +4,7 @@ Want to cook but have no idea where to start? Use this app to select ingredients
 
 ## Getting Started
 
-Visit https://tayler176.github.io/Project1/ to get started on your culinary journey
+Visit https://tayler176.github.io/FeelingHungry/ to get started on your culinary journey
 
 ![alt text](https://raw.githubusercontent.com/tayler176/FeelingHungry/g-aesthetics/assets/images/feeling_hungry.png)
 
