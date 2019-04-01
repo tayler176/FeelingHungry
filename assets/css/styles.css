@@ -213,13 +213,21 @@ h4 {
 
 /* recipes */
 .recipes-additions-header{
-    background-image: url("../images/spices.jpg");
+    background: url("../images/spices.jpg")center center fixed;
+    background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.75;   
 }
 
 .uk-card-media-bottom {
     max-width: 300px;
+}
+
+#recipesHere {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
 }
 
 /* footer */
@@ -233,4 +241,3 @@ footer {
     padding: 1em;
     text-align: center;
 }
-
